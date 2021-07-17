@@ -66,6 +66,6 @@ io.on('connect', (socket) => {
 app.use('*', notFoundHandler);
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 server.listen(PORT, () => console.log(`Server is listening to ${PORT}`));
